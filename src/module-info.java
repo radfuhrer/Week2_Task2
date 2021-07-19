@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author visilean
+ *
+ */
+module binSearch {
+}
