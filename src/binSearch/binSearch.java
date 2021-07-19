@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class dhoondh {
+public class binSearch {
 
 	static int binarySearch(ArrayList<Integer> arr,int low,int high,int n) {	
 		
@@ -52,7 +52,7 @@ public class dhoondh {
 			int low=0;
 			int high=arr.size()-1;
 
-			int pos=dhoondh.binarySearch(arr,low,high,n);
+			int pos=binSearch.binarySearch(arr,low,high,n);
 			if(pos!=-1)
 				System.out.println(pos);
 			else
